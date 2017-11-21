@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package businesslogic;
 
 import java.io.BufferedReader;
@@ -68,7 +63,7 @@ public class WebMailService {
         }
         
         // address the message
-        Address fromAddress = new InternetAddress("cprg352@gmail.com");
+        Address fromAddress = new InternetAddress("seanjeske@gmail.com");
         Address toAddress = new InternetAddress(to);
         message.setFrom(fromAddress);
         message.setRecipient(Message.RecipientType.TO, toAddress);
